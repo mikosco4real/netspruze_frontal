@@ -1,0 +1,16 @@
+
+.home-cards-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  justify-content: center;
+}
+
+.footer {
+  margin: auto;
+}
+
+.footer p {
+  text-align: center;
+}
