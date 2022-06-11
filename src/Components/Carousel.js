@@ -56,7 +56,7 @@ const HomeCarousel = () => {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} variant="light">
         {images.map((image) => (
-            <Carousel.Item>
+            <Carousel.Item key={image.image_path}>
                 <img
                 className="d-block w-100"
                 src={image.image_path}

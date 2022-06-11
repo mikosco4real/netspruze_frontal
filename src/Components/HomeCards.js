@@ -4,16 +4,19 @@ import {Card, Container, Row, Col} from "react-bootstrap"
 const HomeCards = () => {
     const cards = [
         {
+            "id": 1,
             "header": "Information Technology",
             "title": "Training Services",
             "text": "We offer training on Microsoft Packages, Graphics Design, AutoCAD, Accounting Softwares etc. Checkout our service catalogue to find more."
         },
         {
+            "id": 2,
             "header": "Instrumentation",
             "title": "Hardware Supply",
             "text": "We sell computer hardwares and softwares including fully branded PCs like Dell, HP etc. We also supply HSE equipments and PPE. Find out more in our services section"
         },
         {
+            "id": 3,
             "header": "Internet and Security Systems",
             "title": "Specialisation Services",
             "text": "We providing networking solution and internet services. We also specialise in security systems like biometric solutions and CCTV."
@@ -23,7 +26,7 @@ return (
     <Container className="home-cards-section">
         <Row>
             {cards.map(card => (
-                <Col>
+                <Col key={card.id}>
                     <Card bg="light" key="primary" text="dark" style={{ width: '18rem' }} className="mb-2">
                         <Card.Header>{card.header}</Card.Header>
                         <Card.Body>

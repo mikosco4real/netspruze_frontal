@@ -1,16 +1,12 @@
 import React from "react"
-import Navigation from "../Components/Navigation"
-import Footer from "../Components/footer"
+import ContactUsForm from "../Components/ContactUsForm"
 
 const ContactUs = () => {
     return (
         <>
-        <Navigation />        
-
-        <div style={{height: 200}}>
+        <div className="main-content d-flex align-items-center justify-content-center">
+            <ContactUsForm />
         </div>
-
-        <Footer />
         </>
     )}
 
