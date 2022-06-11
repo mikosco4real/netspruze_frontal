@@ -3,7 +3,7 @@ FROM node:14.17 as build
 
 WORKDIR /app
 
-COPY package*.json /
+COPY package.json package-lock.json /app/
 
 RUN npm install
 
