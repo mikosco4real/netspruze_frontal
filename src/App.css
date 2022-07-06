@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,98 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+/* Styling for global components */
+.app-navbar {
+  min-height: 90px;
+  background-color: #0a334d;
+}
+
+.app-navbar-image {
+  height: 70px;
+}
+
+.footer {
+  display: flex;
+  background-color: #0a334d;
+  color: #FFFFFF;
+  padding: 1rem;
+  margin: 0;
+  min-width: 100vw;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.footer p {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Styling for home page */
+.home-cards-container {
+  padding: 5rem 0;
+}
+
+.home-cards-section {
+  align-items: center;
+  padding: 2.5rem 0;
+  margin: auto;
+  justify-content: center;
+}
+
+.home-cards-image {
+  margin-bottom: 20px;
+}
+
+
+/* Styling for about us page */
+.about-us {
+  margin: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(13, 110, 253, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 10px, 15px rgba(187, 194, 204, 0.6);
+}
+
+.about-us h1 {
+  text-align: center;
+}
+
+.about-us p {
+  text-align: justify;
+  padding-bottom: 2rem;
+}
+
+.about-us p:first-of-type {
+  padding-top: 2rem;
+}
+
+.contact-us {
+  margin: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: 10px, 15px rgba(187, 194, 204, 0.6);
+}
+
+
+/* Styling for contact us page */
+.contact-us {
+  margin: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background-color: rgba(13, 110, 253, 0.1);
+  box-shadow: 10px, 15px rgba(187, 194, 204, 0.6);
+}
+
+.contact-us h1 {
+  text-align: center;
 }
