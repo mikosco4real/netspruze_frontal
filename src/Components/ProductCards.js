@@ -42,13 +42,13 @@ return (
                             <Image src={card.imagePath} width="100%"></Image>
                         </Card.Header>
                         <Card.Body>
-                            <Card.Title class="py-3">
+                            <Card.Title className="py-3">
                                 <h2> {card.title}</h2>
                             </Card.Title>
                             <Card.Text>
                             {card.text}
                             </Card.Text>
-                            <a href={card.url} class="btn btn-outline-secondary card-button">Learn more</a>
+                            <a href={card.url} className="btn btn-outline-secondary card-button">Learn more</a>
                         </Card.Body>
                     </Card>
                 </Col>

@@ -84,7 +84,7 @@
 
 /* Styling for products page */
 .product-cards-section{
-  padding: 100px 0;
+  padding: 5rem 0;
 }
 
 .product-cards-section .product-card{
@@ -105,6 +105,18 @@
   bottom: 2rem;
   left: 1rem;
 }
+
+
+/* Styling for products details page */
+.product-detail-section {
+  padding: 5rem 0;
+}
+
+.product-detail-section .hidden-column{
+  display: none;
+}
+
+hidden-column
 
 
 /* Styling for about us page */
