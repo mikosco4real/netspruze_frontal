@@ -14,6 +14,7 @@ const Navigation = ({active}) => {
         </Navbar.Brand>
         <Nav className="me-right">
           <NavLink to="/" className={({isActive}) => isActive ? "nav-link active" :  "nav-link" }>Home</NavLink>
+          <NavLink to="/products" className={({isActive}) => isActive ? "nav-link active" :  "nav-link" }>Products</NavLink>
           <NavLink to="/contact-us" className={({isActive}) => isActive ? "nav-link active" :  "nav-link" }>Contact Us</NavLink>
           <NavLink to="/about-us" className={({isActive}) => isActive ? "nav-link active" :  "nav-link" }>About Us</NavLink>
         </Nav>

@@ -82,6 +82,31 @@
 }
 
 
+/* Styling for products page */
+.product-cards-section{
+  padding: 100px 0;
+}
+
+.product-cards-section .product-card{
+  margin-bottom: 30px;
+}
+
+.product-cards-section .card-header{
+  padding: 0;
+}
+
+.product-cards-section .card-body {
+  position: relative;
+  min-height: 15rem;
+}
+
+.product-cards-section .card-body .card-button {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+}
+
+
 /* Styling for about us page */
 .about-us {
   margin: 2rem;

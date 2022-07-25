@@ -46,7 +46,7 @@ return (
                     <h1>{card.title}</h1>
                     <p>{card.text}</p>
                 </Col>
-                <Col xs={{ span: 12, span: 12,order: 1 }} lg={{ span: 6, order: (card.id % 2 === 0) ? 1 : 2 }}>
+                <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: (card.id % 2 === 0) ? 1 : 2 }}>
                     <Image src={card.imagePath} width="100%" className="home-cards-image"></Image>
                 </Col>
             </Row>
