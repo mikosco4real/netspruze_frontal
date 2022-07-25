@@ -112,11 +112,9 @@
   padding: 5rem 0;
 }
 
-.product-detail-section .hidden-column{
+.product-detail-section .hidden-row{
   display: none;
 }
-
-hidden-column
 
 
 /* Styling for about us page */

@@ -34,14 +34,19 @@ const ProductDetails = () => {
 
     return (
         <Container className="product-detail-section">
+            <Row>
+                <Col>
+                    <a href="/products">Products</a>
+                </Col>
+            </Row>
             {cards.map(card => (
-                <Row key={card.id} className={card.id != productParam.productId ? 'hidden-column' : 'home-cards-section'}>
-                    <Col xs={{ span: 12, order: 2 }} lg={{ span: 6, order: (card.id % 2 === 0) ? 2 : 1 }}>
+                <Row key={card.id} className={card.id != productParam.productId ? 'hidden-row' : 'home-cards-section'}>
+                    <Col xs={12} lg={6}>
                         <h6>{card.header.toUpperCase()}</h6>
                         <h1>{card.title}</h1>
                         <p>{card.text}</p>
                     </Col>
-                    <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: (card.id % 2 === 0) ? 1 : 2 }}>
+                    <Col xs={12} lg={6}>
                         <Image src={card.imagePath} width="100%" className="home-cards-image"></Image>
                     </Col>
                 </Row>
