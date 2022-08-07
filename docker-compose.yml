@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   frontend:
@@ -8,3 +8,29 @@ services:
       - 80:80
       - 443:443
     container_name: frontend
+  
+  backend:
+    build: ../netspruze
+    restart: always
+    ports:
+      - 8000:8000
+    container_name: backend
+    env_file:
+      - ../netspruze/.env.local
+    depends_on:
+      - db
+    
+  db:
+    image: postgres:14.4-bullseye
+    restart: always
+    environment:
+          - POSTGRES_USER=netspruze_admin
+          - POSTGRES_PASSWORD=KDFhoilakjfne34ifjwf
+          - POSTGRES_DB=netspruze
+    ports:
+      - '10000:5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
+volumes:
+  db:
+    driver: local
