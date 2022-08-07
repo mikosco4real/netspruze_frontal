@@ -1,64 +1,12 @@
-
-.home-cards-section {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  margin: auto;
-  justify-content: center;
+body {
+  font-family: 'Epilogue', sans-serif;
 }
 
-.footer {
-  display: flex;
-  background-color: rgba(13, 110, 253, 1);
-  color: rgba(255,255,255,1);
-  padding: 1rem;
-  margin: 0;
-  min-width: 100vw;
-  align-items: stretch;
-  justify-content: center;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Montserrat', sans-serif;
 }
-
-.footer p {
-  padding: 0;
-  margin: 0;
-}
-
 
 .main-content {
   min-height: 100vh;
-}
-
-.about-us {
-  display: block;
-  margin: 1rem;
-  padding: 2rem;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(13, 110, 253, 0.1);
-  border-radius: 0.5rem;
-  box-shadow: 10px, 15px rgba(187, 194, 204, 0.6);
-}
-
-.about-us h1 {
-  text-align: center;
-}
-
-.about-us p {
-  text-align: justify;
-  padding-bottom: 2rem;
-}
-
-.about-us p:first-of-type {
-  padding-top: 2rem;
-}
-
-.contact-us {
-  background-color: rgba(13, 110, 253, 0.1);
-  margin: 2rem;
-  padding: 2rem;
-  max-width: 50vw;
-}
-
-.contact-us h1 {
-  text-align: center;
 }
