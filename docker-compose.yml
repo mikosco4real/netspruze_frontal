@@ -19,6 +19,8 @@ services:
       - ../netspruze/.env.local
     depends_on:
       - db
+    volumes:
+      - backend:/app
     
   db:
     image: postgres:14.4-bullseye
@@ -33,4 +35,6 @@ services:
       - db:/var/lib/postgresql/data
 volumes:
   db:
+    driver: local
+  backend:
     driver: local
