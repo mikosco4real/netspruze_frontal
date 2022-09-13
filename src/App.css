@@ -46,6 +46,12 @@
 
 .app-navbar-image {
   height: 70px;
+  width: auto;
+}
+
+.nav-link-home {
+  color: white;
+  display: inline;
 }
 
 .footer {
@@ -129,6 +135,10 @@
 }
 
 .about-us h1 {
+  text-align: center;
+}
+
+.about-us-subheading {
   text-align: center;
 }
 
